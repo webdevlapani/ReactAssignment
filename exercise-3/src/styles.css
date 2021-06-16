@@ -1,0 +1,44 @@
+.counteWrapper {
+  font-family: Roboto-Bold;
+  font-size: '84px';
+  color: #37474f;
+}
+
+.continent-data-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: flex-start;
+  border-radius: 5px;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 10px #00000017;
+}
+
+.continent-data-list {
+  flex: 50%;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 14px #00000012;
+  background: #dcfaff;
+  border: 2px solid #4c848e;
+  border-radius: 10px;
+  align-self: normal;
+}
+
+.continent-data-list input {
+  width: -webkit-fill-available;
+  border-radius: 2px;
+  outline: none;
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid #4c848e;
+}
+
+.continent-data {
+  height: 200px;
+  overflow-y: auto;
+}
